@@ -25,7 +25,7 @@
   },
   "dependencies": {
     "flatpickr": "^4.6.13",
-    "lit": "^2.0.0",
+    "lit": "^2.7.0 || ^3.0.0",
     "tslib": "^1.11.0"
   },
   "devDependencies": {
