@@ -13,6 +13,7 @@
   ],
   "scripts": {
     "start": "concurrently --kill-others --names tsc,dev-server \"npm run tsc:watch\" \"wds --app-index demo/index.html --node-resolve --watch --open\"",
+    "prepare": "npm run build",
     "tsc:watch": "tsc --watch",
     "lint:eslint": "eslint --ext .ts,.html . --ignore-path .gitignore",
     "format:eslint": "eslint --ext .ts,.html . --fix --ignore-path .gitignore",
